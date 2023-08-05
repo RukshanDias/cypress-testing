@@ -1,2 +1,8 @@
 node_modules
 .git
+
+# cypress
+
+## default intergations
+**/1-getting-started
+**/2-advanced-examples
