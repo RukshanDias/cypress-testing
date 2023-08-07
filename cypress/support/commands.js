@@ -27,3 +27,7 @@
 Cypress.Commands.add("getByTestId", (testId) => {
     cy.get(`[data-cy='${testId}']`)
 })
+
+Cypress.Commands.add('getByTag', (tag) => {
+    cy.get(tag)
+})

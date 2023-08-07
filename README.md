@@ -20,4 +20,8 @@
 - start writing under 'describe' or 'context' <- container
 - beforeEach() - for every setup before test execution
 
-### Locating elements (Get, Contains)
+### Locating elements (Get, Contains, Find)  -  [View Code](cypress/integration/locators.spec.js)
+- Get command locate every elements.
+- Contains command locate first element met.
+- find command have to use with parent -> cy.get(..).find(..)
+- can also create cust func. calling get/contains/find inside that.
