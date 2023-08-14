@@ -25,3 +25,5 @@
 - Contains command locate first element met.
 - find command have to use with parent -> cy.get(..).find(..)
 - can also create cust func. calling get/contains/find inside that.
+- cy.contains(..).click()  <-- click the located item
+- cy.get(..).should("be.visible")  <--  given para should be visible
